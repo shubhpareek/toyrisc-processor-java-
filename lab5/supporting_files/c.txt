@@ -1,0 +1,723 @@
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@61e717c2
+
+
+
+OF: load
+OF PC=0	load	[Register:0]	[Immediate:0]	[Register:3]
+
+EX0
+MA Load Event Added
+Memory Read Event Going On
+Memory Read Event Going On
+MA Load Event Handled
+RWPC=0	load	[Register:0]	[Immediate:0]	[Register:3]
+
+0
+0
+IF generic.MemoryResponseEvent@442d9b6e
+
+
+
+OF: add
+OF PC=0	add	[Register:0]	[Register:0]	[Register:10]
+
+EX0
+MA: PC=0	add	[Register:0]	[Register:0]	[Register:10]
+
+RWPC=0	add	[Register:0]	[Register:0]	[Register:10]
+
+0
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@ee7d9f1
+
+
+
+OF: beq
+OF PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+EX0
+MA: PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+RWPC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+0
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@15615099
+
+
+
+OF: subi
+OF PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+EX4
+MA: PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+RWPC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+0
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@1edf1c96
+
+
+
+OF: load
+OF PC=0	load	null	null	null
+
+
+OF: load
+OF PC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+EX5
+MA Load Event Added
+Memory Read Event Going On
+MA Load Event Handled
+RWPC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+0
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@368102c8
+
+
+
+OF: blt
+OF PC=0	blt	null	null	null
+
+
+OF: blt
+OF PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+EX0
+MA: PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+RWPC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+0
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@6996db8
+
+
+
+OF: andi
+OF PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+EX1
+MA: PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+RWPC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+0
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@1963006a
+
+
+
+OF: beq
+OF PC=0	beq	null	null	null
+
+
+OF: beq
+OF PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+EX0
+MA: PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+RWPC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+0
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@7fbe847c
+
+
+
+OF: jmp
+OF PC=0	jmp	null	null	[Immediate:-6]
+
+EX0
+MA: PC=0	jmp	null	null	[Immediate:-6]
+
+RWPC=0	jmp	null	null	[Immediate:-6]
+
+0
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@41975e01
+
+
+
+OF: addi
+OF PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+EX1
+MA: PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+RWPC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+0
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@c2e1f26
+
+
+
+OF: beq
+OF PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+EX0
+MA: PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+RWPC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@dcf3e99
+
+
+
+OF: subi
+OF PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+EX3
+MA: PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+RWPC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@6d9c638
+
+
+
+OF: load
+OF PC=0	load	null	null	null
+
+
+OF: load
+OF PC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+EX4
+MA Load Event Added
+Memory Read Event Going On
+MA Load Event Handled
+RWPC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@7dc5e7b4
+
+
+
+OF: blt
+OF PC=0	blt	null	null	null
+
+
+OF: blt
+OF PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+EX0
+MA: PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+RWPC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@1ee0005
+
+
+
+OF: andi
+OF PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+EX1
+MA: PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+RWPC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@75a1cd57
+
+
+
+OF: beq
+OF PC=0	beq	null	null	null
+
+
+OF: beq
+OF PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+EX0
+MA: PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+RWPC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@3d012ddd
+
+
+
+OF: jmp
+OF PC=0	jmp	null	null	[Immediate:-6]
+
+EX0
+MA: PC=0	jmp	null	null	[Immediate:-6]
+
+RWPC=0	jmp	null	null	[Immediate:-6]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@6f2b958e
+
+
+
+OF: addi
+OF PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+EX2
+MA: PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+RWPC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+1
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@1eb44e46
+
+
+
+OF: beq
+OF PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+EX0
+MA: PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+RWPC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@6504e3b2
+
+
+
+OF: subi
+OF PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+EX2
+MA: PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+RWPC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@515f550a
+
+
+
+OF: load
+OF PC=0	load	null	null	null
+
+
+OF: load
+OF PC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+EX3
+MA Load Event Added
+Memory Read Event Going On
+MA Load Event Handled
+RWPC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@626b2d4a
+
+
+
+OF: blt
+OF PC=0	blt	null	null	null
+
+
+OF: blt
+OF PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+EX0
+MA: PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+RWPC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@5e91993f
+
+
+
+OF: andi
+OF PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+EX1
+MA: PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+RWPC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@1c4af82c
+
+
+
+OF: beq
+OF PC=0	beq	null	null	null
+
+
+OF: beq
+OF PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+EX0
+MA: PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+RWPC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@379619aa
+
+
+
+OF: jmp
+OF PC=0	jmp	null	null	[Immediate:-6]
+
+EX0
+MA: PC=0	jmp	null	null	[Immediate:-6]
+
+RWPC=0	jmp	null	null	[Immediate:-6]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@cac736f
+
+
+
+OF: addi
+OF PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+EX3
+MA: PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+RWPC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+2
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@5e265ba4
+
+
+
+OF: beq
+OF PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+EX0
+MA: PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+RWPC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@156643d4
+
+
+
+OF: subi
+OF PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+EX1
+MA: PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+RWPC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@123a439b
+
+
+
+OF: load
+OF PC=0	load	null	null	null
+
+
+OF: load
+OF PC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+EX2
+MA Load Event Added
+Memory Read Event Going On
+MA Load Event Handled
+RWPC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@7de26db8
+
+
+
+OF: blt
+OF PC=0	blt	null	null	null
+
+
+OF: blt
+OF PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+EX0
+MA: PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+RWPC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@1175e2db
+
+
+
+OF: beq
+OF PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+EX0
+MA: PC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+RWPC=0	beq	[Register:3]	[Register:0]	[Immediate:9]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@36aa7bc2
+
+
+
+OF: subi
+OF PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+EX0
+MA: PC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+RWPC=0	subi	[Register:3]	[Immediate:1]	[Register:3]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@76ccd017
+
+
+
+OF: load
+OF PC=0	load	null	null	null
+
+
+OF: load
+OF PC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+EX1
+MA Load Event Added
+Memory Read Event Going On
+MA Load Event Handled
+RWPC=0	load	[Register:3]	[Immediate:1]	[Register:4]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@182decdb
+
+
+
+OF: blt
+OF PC=0	blt	null	null	null
+
+
+OF: blt
+OF PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+EX0
+MA: PC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+RWPC=0	blt	[Register:4]	[Register:0]	[Immediate:-3]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@26f0a63f
+
+
+
+OF: andi
+OF PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+EX0
+MA: PC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+RWPC=0	andi	[Register:4]	[Immediate:1]	[Register:5]
+
+3
+1
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@4361bd48
+
+
+
+OF: beq
+OF PC=0	beq	null	null	null
+
+
+OF: beq
+OF PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+EX0
+MA: PC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+RWPC=0	beq	[Register:5]	[Register:0]	[Immediate:2]
+
+3
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@53bd815b
+
+
+
+OF: addi
+OF PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+EX4
+MA: PC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+RWPC=0	addi	[Register:10]	[Immediate:1]	[Register:10]
+
+3
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@2401f4c3
+
+
+
+OF: jmp
+OF PC=0	jmp	null	null	[Immediate:-8]
+
+EX0
+MA: PC=0	jmp	null	null	[Immediate:-8]
+
+RWPC=0	jmp	null	null	[Immediate:-8]
+
+4
+0
+Memory Read Event Going On
+IF generic.MemoryResponseEvent@7637f22
+
+
+
+OF: end
+OF PC=0	end	null	null	null
+
+EX0
+MA: PC=0	end	null	null	null
+
+RWPC=0	end	null	null	null
+
+4
+0
+
+Register File Contents:
+
+PC	: 8
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 2
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 0
+x9	: 0
+x10	: 4
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+
+Main Memory Contents:
+
+0		: 5
+1		: 2
+2		: -1
+3		: 7
+4		: 5
+5		: 3
+6		: -1341784064
+7		: 40960
+8		: -926941175
+9		: 415629313
+10		: -1329070079
+11		: -654180355
+12		: 1225392129
+13		: -918552574
+14		: -1069547526
+15		: 177471489
+16		: -1069547528
+17		: -402653184
+18		: 0
+19		: 0
+20		: 0
+21		: 0
+22		: 0
+23		: 0
+24		: 0
+25		: 0
+26		: 0
+27		: 0
+28		: 0
+29		: 0
+30		: 0
+
+
+Hash of the Processor State = 2068780488
