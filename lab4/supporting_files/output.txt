@@ -1,0 +1,603 @@
+RW
+sim pc 9 
+MA
+sim pc 9 
+EX
+sim pc 9 
+of 
+ofex enable status
+false
+ofex nop status 
+false
+ifetch status 
+true
+sim pc 9 
+ifetch
+ifetch inside
+pccurr=9
+pcafset=10
+sim pc 10 
+
+0
+0
+0
+0
+0
+0
+cycle
+1
+RW
+sim pc 10 
+MA
+sim pc 10 
+EX
+sim pc 10 
+of 
+of counter -2
+op fetch ghus gaye
+pc=9
+ofex enable status
+true
+ofex nop status 
+false
+ifetch status 
+true
+sim pc 10 
+ifetch
+ifetch inside
+pccurr=10
+pcafset=11
+sim pc 11 
+
+0
+0
+0
+0
+0
+0
+cycle
+2
+RW
+sim pc 11 
+MA
+sim pc 11 
+EX
+op1 -0 op2-0
+sub
+sim pc 11 
+of 
+of counter -2
+op fetch ghus gaye
+pc=10
+ofex enable status
+true
+ofex nop status 
+false
+ifetch status 
+true
+sim pc 11 
+ifetch
+ifetch inside
+pccurr=11
+pcafset=12
+sim pc 12 
+
+0
+0
+0
+0
+0
+0
+cycle
+3
+RW
+sim pc 12 
+MA
+sub
+sim pc 12 
+EX
+op1 -0 op2-0
+sub
+sim pc 12 
+of 
+of counter -2
+op fetch ghus gaye
+pc=11
+ofex enable status
+true
+ofex nop status 
+false
+ifetch status 
+true
+sim pc 12 
+ifetch
+ifetch inside
+pccurr=12
+pcafset=13
+sim pc 13 
+
+0
+0
+0
+0
+0
+0
+cycle
+4
+RW
+sub
+sim pc 13 
+MA
+sub
+sim pc 13 
+EX
+op1 -0 op2-0
+load
+sim pc 13 
+of 
+of counter -2
+op fetch ghus gaye
+pc=12
+realconflict
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+0
+cycle
+5
+RW
+sub
+sim pc 13 
+MA
+load
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 6
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+0
+cycle
+6
+RW
+load
+sim pc 13 
+MA
+NOP IN  MA
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 5
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+8
+cycle
+7
+RW
+got in nop in RW
+sim pc 13 
+MA
+NOP IN  MA
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 4
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+8
+cycle
+8
+RW
+got in nop in RW
+sim pc 13 
+MA
+NOP IN  MA
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 3
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+8
+cycle
+9
+RW
+got in nop in RW
+sim pc 13 
+MA
+NOP IN  MA
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 2
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+8
+cycle
+10
+RW
+got in nop in RW
+sim pc 13 
+MA
+NOP IN  MA
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 1
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 13 
+ifetch
+sim pc 13 
+
+0
+0
+0
+0
+0
+8
+cycle
+11
+RW
+got in nop in RW
+sim pc 13 
+MA
+NOP IN  MA
+sim pc 13 
+EX
+was nop
+sim pc 13 
+of 
+of counter 0
+op fetch ghus gaye
+pc=12
+jmpcase
+realconflict
+ofex enable status
+true
+ofex nop status 
+false
+ifetch status 
+true
+sim pc 13 
+ifetch
+ifetch inside
+pccurr=13
+pcafset=14
+sim pc 14 
+
+0
+0
+0
+0
+0
+8
+cycle
+12
+RW
+got in nop in RW
+sim pc 14 
+MA
+NOP IN  MA
+sim pc 14 
+EX
+op1 -0 op2-8
+blt
+sim pc 14 
+of 
+of counter -2
+op fetch ghus gaye
+pc=13
+ofex enable status
+true
+ofex nop status 
+false
+ifetch status 
+true
+sim pc 14 
+ifetch
+from ex if
+ifetch inside
+ifetch exif
+pccurr=15
+pcafset=16
+sim pc 16 
+
+0
+0
+0
+0
+0
+8
+cycle
+13
+RW
+got in nop in RW
+sim pc 16 
+MA
+blt
+sim pc 16 
+EX
+op1 -0 op2-8
+end
+sim pc 16 
+of 
+of counter -2
+op fetch ghus gaye
+pc=15
+jmpcase
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 16 
+ifetch
+sim pc 16 
+
+0
+0
+0
+0
+0
+8
+cycle
+14
+RW
+blt
+sim pc 16 
+MA
+end
+sim pc 16 
+EX
+was nop
+sim pc 16 
+of 
+of counter 6
+op fetch ghus gaye
+pc=15
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 16 
+ifetch
+sim pc 16 
+
+0
+0
+0
+0
+0
+8
+cycle
+15
+RW
+end
+sim pc 15 
+MA
+NOP IN  MA
+sim pc 15 
+EX
+was nop
+sim pc 15 
+of 
+of counter 5
+op fetch ghus gaye
+pc=15
+ofex enable status
+true
+ofex nop status 
+true
+ifetch status 
+false
+sim pc 15 
+ifetch
+sim pc 15 
+
+0
+0
+0
+0
+0
+8
+cycle
+16
+
+Register File Contents:
+
+PC	: 15
+
+x0	: 0
+x1	: 65535
+x2	: 65535
+x3	: 0
+x4	: 0
+x5	: 0
+x6	: 0
+x7	: 0
+x8	: 8
+x9	: 0
+x10	: 0
+x11	: 0
+x12	: 0
+x13	: 0
+x14	: 0
+x15	: 0
+x16	: 0
+x17	: 0
+x18	: 0
+x19	: 0
+x20	: 0
+x21	: 0
+x22	: 0
+x23	: 0
+x24	: 0
+x25	: 0
+x26	: 0
+x27	: 0
+x28	: 0
+x29	: 0
+x30	: 0
+x31	: 0
+
+
+
+Main Memory Contents:
+
+0		: 40
+1		: 20
+2		: 50
+3		: 60
+4		: 80
+5		: 30
+6		: 10
+7		: 70
+8		: 8
+9		: 281423872
+10		: 285753344
+11		: -1341128696
+12		: -657457149
+13		: -402653184
+14		: 147324929
+15		: 147324929
+16		: -653262845
+17		: 147193857
+18		: -1069547526
+19		: -1328939008
+20		: -1324613632
+21		: -649330685
+22		: 151519233
+23		: -1069547527
+24		: 298741760
+25		: 684032
+26		: -1182400512
+27		: -1178075136
+28		: 151519233
+29		: -1069547533
+30		: 0
+
+
+Hash of the Processor State = 1444883604
